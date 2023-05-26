@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let user of users">
+        {{ user.name}} =>>>> {{user.status}} | <button (click)="setActive(user)"> set to Active</button>
+    </li>
+</ul>
